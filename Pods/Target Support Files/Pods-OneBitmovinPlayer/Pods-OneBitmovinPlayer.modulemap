@@ -1,0 +1,6 @@
+framework module Pods_OneBitmovinPlayer {
+  umbrella header "Pods-OneBitmovinPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

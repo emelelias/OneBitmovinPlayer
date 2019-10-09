@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		95DD103C503D8F16FD27F000FA761AAB /* BitmovinPlayer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0282EB387FE07A0661962A7A7FF208B6 /* Build configuration list for PBXAggregateTarget "BitmovinPlayer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BitmovinPlayer;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		594DD6F0C2D32AB4D1D189A6F9FFEDF9 /* Pods-OneBitmovinPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D39651561F9E27E51639E191244CBEAB /* Pods-OneBitmovinPlayer-dummy.m */; };
+		A876AA91662178DC4669DCADD5C3F802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B4CD43B4308CC0C05ECBB89871F44A04 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7174159EAE285923F7C64E3D5F58CB13 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-dummy.m */; };
+		EA91631B3374E088FA9B485B5251CEB6 /* Pods-OneBitmovinPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8761109CECF90F0244431037B6659A42 /* Pods-OneBitmovinPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F27960ABE908980E517F8616FB52A930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FC262A328452B66DE25407CBB3AEAF61 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F14A7A959989B3A56B485AA5A1AFE31 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		745E1B46645CB6E0B71B683C62C8E3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DD103C503D8F16FD27F000FA761AAB;
+			remoteInfo = BitmovinPlayer;
+		};
+		C4494A44BB79ADCC38DFD5482712CE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DD103C503D8F16FD27F000FA761AAB;
+			remoteInfo = BitmovinPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		066DFA7BFDDD78B2D56936FB39075B6A /* Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BD65F75A1B10AAC057C19E81B03A4F /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F545ECBBE8F371C7A29C1A10D682188 /* Pods-OneBitmovinPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneBitmovinPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		437124E58392C76FE76B5572B0EACF57 /* Pods-OneBitmovinPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneBitmovinPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		49B42962AC46FCDE8A7DE80170A7AC3E /* Pods-OneBitmovinPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneBitmovinPlayer-Info.plist"; sourceTree = "<group>"; };
+		4BB3D377C03E89BDD74A74FC662A77DF /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.modulemap"; sourceTree = "<group>"; };
+		7174159EAE285923F7C64E3D5F58CB13 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-dummy.m"; sourceTree = "<group>"; };
+		7856294FCBC585BAF33E1C75785C88B3 /* Pods_OneBitmovinPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneBitmovinPlayer.framework; path = "Pods-OneBitmovinPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14A7A959989B3A56B485AA5A1AFE31 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-umbrella.h"; sourceTree = "<group>"; };
+		8761109CECF90F0244431037B6659A42 /* Pods-OneBitmovinPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneBitmovinPlayer-umbrella.h"; sourceTree = "<group>"; };
+		931189D6CAD97125CB5D46AAA124DC46 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9707C169FB36866283F1BE0CD59EC402 /* BitmovinPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitmovinPlayer.xcconfig; sourceTree = "<group>"; };
+		987DA72E9FAB0672B51267D9DECA142A /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8E972B02F3ABC431C05C18B7B946A9 /* Pods-OneBitmovinPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneBitmovinPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8C61DA1605615CB7A53C4D67FA2710B /* Pods-OneBitmovinPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneBitmovinPlayer.modulemap"; sourceTree = "<group>"; };
+		AD439438BCA3AF2C1ADC15806C6CB546 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		C40D5F1964574DFD26A6A2A940BB36C5 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF4F73C4C27B1DA9AB2AF619DAC32255 /* BitmovinPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BitmovinPlayer.framework; path = iOS/BitmovinPlayer.framework; sourceTree = "<group>"; };
+		D39651561F9E27E51639E191244CBEAB /* Pods-OneBitmovinPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneBitmovinPlayer-dummy.m"; sourceTree = "<group>"; };
+		E81B592E2616165CF898A366B27787FE /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-frameworks.sh"; sourceTree = "<group>"; };
+		EF9EDF91E37D4754878E2C90B3012CD4 /* Pods-OneBitmovinPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneBitmovinPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C3AB68F91E278AEE68032F47AF22501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27960ABE908980E517F8616FB52A930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420E689F6649FBE87CD9DACCEB732BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A876AA91662178DC4669DCADD5C3F802 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279987F0EB85EADD772B453C017A3835 /* Pods-OneBitmovinPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A8C61DA1605615CB7A53C4D67FA2710B /* Pods-OneBitmovinPlayer.modulemap */,
+				9F8E972B02F3ABC431C05C18B7B946A9 /* Pods-OneBitmovinPlayer-acknowledgements.markdown */,
+				EF9EDF91E37D4754878E2C90B3012CD4 /* Pods-OneBitmovinPlayer-acknowledgements.plist */,
+				D39651561F9E27E51639E191244CBEAB /* Pods-OneBitmovinPlayer-dummy.m */,
+				49B42962AC46FCDE8A7DE80170A7AC3E /* Pods-OneBitmovinPlayer-Info.plist */,
+				8761109CECF90F0244431037B6659A42 /* Pods-OneBitmovinPlayer-umbrella.h */,
+				437124E58392C76FE76B5572B0EACF57 /* Pods-OneBitmovinPlayer.debug.xcconfig */,
+				2F545ECBBE8F371C7A29C1A10D682188 /* Pods-OneBitmovinPlayer.release.xcconfig */,
+			);
+			name = "Pods-OneBitmovinPlayer";
+			path = "Target Support Files/Pods-OneBitmovinPlayer";
+			sourceTree = "<group>";
+		};
+		3B5CFC45ED1CF04354E7976361A6C7DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9707C169FB36866283F1BE0CD59EC402 /* BitmovinPlayer.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BitmovinPlayer";
+			sourceTree = "<group>";
+		};
+		6165F9954CDC13B6E54ED1FF4CDA86CC /* BitmovinPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7B937697267463F85F229AA9B7468AF6 /* Frameworks */,
+				3B5CFC45ED1CF04354E7976361A6C7DF /* Support Files */,
+			);
+			name = BitmovinPlayer;
+			path = BitmovinPlayer;
+			sourceTree = "<group>";
+		};
+		7B937697267463F85F229AA9B7468AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F73C4C27B1DA9AB2AF619DAC32255 /* BitmovinPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		991175EEB1F1E5B9A496577DB3C47EDB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				279987F0EB85EADD772B453C017A3835 /* Pods-OneBitmovinPlayer */,
+				CECA23FA414C951D90385B2E823ECF1D /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BE579EAA6A298FE46C0EA8EC2AFDE9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7856294FCBC585BAF33E1C75785C88B3 /* Pods_OneBitmovinPlayer.framework */,
+				066DFA7BFDDD78B2D56936FB39075B6A /* Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CECA23FA414C951D90385B2E823ECF1D /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB3D377C03E89BDD74A74FC662A77DF /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.modulemap */,
+				931189D6CAD97125CB5D46AAA124DC46 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-acknowledgements.markdown */,
+				C40D5F1964574DFD26A6A2A940BB36C5 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-acknowledgements.plist */,
+				7174159EAE285923F7C64E3D5F58CB13 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-dummy.m */,
+				E81B592E2616165CF898A366B27787FE /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-frameworks.sh */,
+				AD439438BCA3AF2C1ADC15806C6CB546 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-Info.plist */,
+				7F14A7A959989B3A56B485AA5A1AFE31 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-umbrella.h */,
+				987DA72E9FAB0672B51267D9DECA142A /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig */,
+				28BD65F75A1B10AAC057C19E81B03A4F /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig */,
+			);
+			name = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests";
+			path = "Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F189AAF26884209204EB5F83FD680585 /* Pods */,
+				BE579EAA6A298FE46C0EA8EC2AFDE9F7 /* Products */,
+				991175EEB1F1E5B9A496577DB3C47EDB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F189AAF26884209204EB5F83FD680585 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6165F9954CDC13B6E54ED1FF4CDA86CC /* BitmovinPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07E072EA48864A81D72FAE994C84DBAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA91631B3374E088FA9B485B5251CEB6 /* Pods-OneBitmovinPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC46951BFE338563FEEB4CF8B708BE99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC262A328452B66DE25407CBB3AEAF61 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE03FBA7B866592A96AAF86500EAB4A6 /* Pods-OneBitmovinPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A7558C7F54DC883A1115FFA36A2633 /* Build configuration list for PBXNativeTarget "Pods-OneBitmovinPlayer" */;
+			buildPhases = (
+				07E072EA48864A81D72FAE994C84DBAF /* Headers */,
+				E8681BA15394E439DBAF1B58B99B5105 /* Sources */,
+				420E689F6649FBE87CD9DACCEB732BE6 /* Frameworks */,
+				A23325828E1AE29647FCFE78BB08772E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1068195BD69E130569CE106E818819E /* PBXTargetDependency */,
+			);
+			name = "Pods-OneBitmovinPlayer";
+			productName = "Pods-OneBitmovinPlayer";
+			productReference = 7856294FCBC585BAF33E1C75785C88B3 /* Pods_OneBitmovinPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAE297FBB3F8BBFF42F4B0100C42B131 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3743D10117256CEB5830C607B1570D /* Build configuration list for PBXNativeTarget "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests" */;
+			buildPhases = (
+				FC46951BFE338563FEEB4CF8B708BE99 /* Headers */,
+				053C644C2F3CAC3EF4B91D650C50B086 /* Sources */,
+				0C3AB68F91E278AEE68032F47AF22501 /* Frameworks */,
+				C0C0CACD99670B36012E7977F76823DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6459133FCDA0D3727C2D481556ACCF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests";
+			productName = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests";
+			productReference = 066DFA7BFDDD78B2D56936FB39075B6A /* Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE579EAA6A298FE46C0EA8EC2AFDE9F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DD103C503D8F16FD27F000FA761AAB /* BitmovinPlayer */,
+				BE03FBA7B866592A96AAF86500EAB4A6 /* Pods-OneBitmovinPlayer */,
+				EAE297FBB3F8BBFF42F4B0100C42B131 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23325828E1AE29647FCFE78BB08772E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C0CACD99670B36012E7977F76823DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		053C644C2F3CAC3EF4B91D650C50B086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CD43B4308CC0C05ECBB89871F44A04 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8681BA15394E439DBAF1B58B99B5105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594DD6F0C2D32AB4D1D189A6F9FFEDF9 /* Pods-OneBitmovinPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1068195BD69E130569CE106E818819E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitmovinPlayer;
+			target = 95DD103C503D8F16FD27F000FA761AAB /* BitmovinPlayer */;
+			targetProxy = C4494A44BB79ADCC38DFD5482712CE12 /* PBXContainerItemProxy */;
+		};
+		F6459133FCDA0D3727C2D481556ACCF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitmovinPlayer;
+			target = 95DD103C503D8F16FD27F000FA761AAB /* BitmovinPlayer */;
+			targetProxy = 745E1B46645CB6E0B71B683C62C8E3A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		176696E90A740AC520254083CEF4D6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F545ECBBE8F371C7A29C1A10D682188 /* Pods-OneBitmovinPlayer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneBitmovinPlayer/Pods-OneBitmovinPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneBitmovinPlayer/Pods-OneBitmovinPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29ED80CBA20C50F2EDB317F1D2E5FE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9707C169FB36866283F1BE0CD59EC402 /* BitmovinPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E45DF4C5CB974B6A14DD3AFA20121BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9707C169FB36866283F1BE0CD59EC402 /* BitmovinPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC4FDC3C6916A630750516838887DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BD65F75A1B10AAC057C19E81B03A4F /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F338C6F9FDB4DA113CD7784EE561801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437124E58392C76FE76B5572B0EACF57 /* Pods-OneBitmovinPlayer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneBitmovinPlayer/Pods-OneBitmovinPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneBitmovinPlayer/Pods-OneBitmovinPlayer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B92D3F63F4769DAE6623BB0FF7530C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987DA72E9FAB0672B51267D9DECA142A /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0282EB387FE07A0661962A7A7FF208B6 /* Build configuration list for PBXAggregateTarget "BitmovinPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29ED80CBA20C50F2EDB317F1D2E5FE07 /* Debug */,
+				2E45DF4C5CB974B6A14DD3AFA20121BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A7558C7F54DC883A1115FFA36A2633 /* Build configuration list for PBXNativeTarget "Pods-OneBitmovinPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F338C6F9FDB4DA113CD7784EE561801 /* Debug */,
+				176696E90A740AC520254083CEF4D6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3743D10117256CEB5830C607B1570D /* Build configuration list for PBXNativeTarget "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92D3F63F4769DAE6623BB0FF7530C7F /* Debug */,
+				3AC4FDC3C6916A630750516838887DD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

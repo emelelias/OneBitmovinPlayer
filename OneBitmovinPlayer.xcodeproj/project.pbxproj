@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D23EB2B9DFAC29F54ACB15D /* Pods_OneBitmovinPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE7241817136B05AC04C403 /* Pods_OneBitmovinPlayer.framework */; };
+		40A2F51AC8146ADC620652E0 /* Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAE8599CE298F4D6C5066C6 /* Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework */; };
+		56E4033D234DDCC300BE2053 /* OneBitmovinPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E40333234DDCC300BE2053 /* OneBitmovinPlayer.framework */; };
+		56E40342234DDCC300BE2053 /* OneBitmovinPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E40341234DDCC300BE2053 /* OneBitmovinPlayerTests.swift */; };
+		56E40344234DDCC300BE2053 /* OneBitmovinPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E40336234DDCC300BE2053 /* OneBitmovinPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E4034E234DE2CE00BE2053 /* OnePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4034D234DE2CE00BE2053 /* OnePlayer.swift */; };
+		56E40350234DE30500BE2053 /* OneBitmovinPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E4034F234DE30500BE2053 /* OneBitmovinPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56E4033E234DDCC300BE2053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56E4032A234DDCC300BE2053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56E40332234DDCC300BE2053;
+			remoteInfo = OneBitmovinPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CAE8599CE298F4D6C5066C6 /* Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE7241817136B05AC04C403 /* Pods_OneBitmovinPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneBitmovinPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E40333234DDCC300BE2053 /* OneBitmovinPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneBitmovinPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E40336234DDCC300BE2053 /* OneBitmovinPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneBitmovinPlayer.h; sourceTree = "<group>"; };
+		56E40337234DDCC300BE2053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E4033C234DDCC300BE2053 /* OneBitmovinPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneBitmovinPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E40341234DDCC300BE2053 /* OneBitmovinPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBitmovinPlayerTests.swift; sourceTree = "<group>"; };
+		56E40343234DDCC300BE2053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E4034D234DE2CE00BE2053 /* OnePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePlayer.swift; sourceTree = "<group>"; };
+		56E4034F234DE30500BE2053 /* OneBitmovinPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBitmovinPlayer.swift; sourceTree = "<group>"; };
+		670F2E49B20D181DF0D4EDBF /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4215B1993AE0615228C6B13 /* Pods-OneBitmovinPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBitmovinPlayer.debug.xcconfig"; path = "Target Support Files/Pods-OneBitmovinPlayer/Pods-OneBitmovinPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		D7FD56E564840B47A73D55B1 /* Pods-OneBitmovinPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBitmovinPlayer.release.xcconfig"; path = "Target Support Files/Pods-OneBitmovinPlayer/Pods-OneBitmovinPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		EE88A327376AC13494A668D6 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56E40330234DDCC300BE2053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D23EB2B9DFAC29F54ACB15D /* Pods_OneBitmovinPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E40339234DDCC300BE2053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E4033D234DDCC300BE2053 /* OneBitmovinPlayer.framework in Frameworks */,
+				40A2F51AC8146ADC620652E0 /* Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56E40329234DDCC300BE2053 = {
+			isa = PBXGroup;
+			children = (
+				56E40335234DDCC300BE2053 /* OneBitmovinPlayer */,
+				56E40340234DDCC300BE2053 /* OneBitmovinPlayerTests */,
+				56E40334234DDCC300BE2053 /* Products */,
+				7A62E39E9EE3D0B0D2D63BD2 /* Pods */,
+				A75E53218A44A68B7EF376A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56E40334234DDCC300BE2053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56E40333234DDCC300BE2053 /* OneBitmovinPlayer.framework */,
+				56E4033C234DDCC300BE2053 /* OneBitmovinPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56E40335234DDCC300BE2053 /* OneBitmovinPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				56E4034D234DE2CE00BE2053 /* OnePlayer.swift */,
+				56E40336234DDCC300BE2053 /* OneBitmovinPlayer.h */,
+				56E40337234DDCC300BE2053 /* Info.plist */,
+				56E4034F234DE30500BE2053 /* OneBitmovinPlayer.swift */,
+			);
+			path = OneBitmovinPlayer;
+			sourceTree = "<group>";
+		};
+		56E40340234DDCC300BE2053 /* OneBitmovinPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				56E40341234DDCC300BE2053 /* OneBitmovinPlayerTests.swift */,
+				56E40343234DDCC300BE2053 /* Info.plist */,
+			);
+			path = OneBitmovinPlayerTests;
+			sourceTree = "<group>";
+		};
+		7A62E39E9EE3D0B0D2D63BD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4215B1993AE0615228C6B13 /* Pods-OneBitmovinPlayer.debug.xcconfig */,
+				D7FD56E564840B47A73D55B1 /* Pods-OneBitmovinPlayer.release.xcconfig */,
+				670F2E49B20D181DF0D4EDBF /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig */,
+				EE88A327376AC13494A668D6 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A75E53218A44A68B7EF376A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7241817136B05AC04C403 /* Pods_OneBitmovinPlayer.framework */,
+				0CAE8599CE298F4D6C5066C6 /* Pods_OneBitmovinPlayer_OneBitmovinPlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56E4032E234DDCC300BE2053 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E40344234DDCC300BE2053 /* OneBitmovinPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56E40332234DDCC300BE2053 /* OneBitmovinPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E40347234DDCC300BE2053 /* Build configuration list for PBXNativeTarget "OneBitmovinPlayer" */;
+			buildPhases = (
+				C57269E7DB167E8636BC8C11 /* [CP] Check Pods Manifest.lock */,
+				56E4032E234DDCC300BE2053 /* Headers */,
+				56E4032F234DDCC300BE2053 /* Sources */,
+				56E40330234DDCC300BE2053 /* Frameworks */,
+				56E40331234DDCC300BE2053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneBitmovinPlayer;
+			productName = OneBitmovinPlayer;
+			productReference = 56E40333234DDCC300BE2053 /* OneBitmovinPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56E4033B234DDCC300BE2053 /* OneBitmovinPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E4034A234DDCC300BE2053 /* Build configuration list for PBXNativeTarget "OneBitmovinPlayerTests" */;
+			buildPhases = (
+				A3B446B4F58A04F50E22EADD /* [CP] Check Pods Manifest.lock */,
+				56E40338234DDCC300BE2053 /* Sources */,
+				56E40339234DDCC300BE2053 /* Frameworks */,
+				56E4033A234DDCC300BE2053 /* Resources */,
+				5DB4235503609FF5230E6412 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56E4033F234DDCC300BE2053 /* PBXTargetDependency */,
+			);
+			name = OneBitmovinPlayerTests;
+			productName = OneBitmovinPlayerTests;
+			productReference = 56E4033C234DDCC300BE2053 /* OneBitmovinPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56E4032A234DDCC300BE2053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Emel Elias";
+				TargetAttributes = {
+					56E40332234DDCC300BE2053 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+					56E4033B234DDCC300BE2053 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 56E4032D234DDCC300BE2053 /* Build configuration list for PBXProject "OneBitmovinPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56E40329234DDCC300BE2053;
+			productRefGroup = 56E40334234DDCC300BE2053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56E40332234DDCC300BE2053 /* OneBitmovinPlayer */,
+				56E4033B234DDCC300BE2053 /* OneBitmovinPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56E40331234DDCC300BE2053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E4033A234DDCC300BE2053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DB4235503609FF5230E6412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3B446B4F58A04F50E22EADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneBitmovinPlayer-OneBitmovinPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C57269E7DB167E8636BC8C11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneBitmovinPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56E4032F234DDCC300BE2053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E4034E234DE2CE00BE2053 /* OnePlayer.swift in Sources */,
+				56E40350234DE30500BE2053 /* OneBitmovinPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E40338234DDCC300BE2053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E40342234DDCC300BE2053 /* OneBitmovinPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56E4033F234DDCC300BE2053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56E40332234DDCC300BE2053 /* OneBitmovinPlayer */;
+			targetProxy = 56E4033E234DDCC300BE2053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56E40345234DDCC300BE2053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56E40346234DDCC300BE2053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56E40348234DDCC300BE2053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4215B1993AE0615228C6B13 /* Pods-OneBitmovinPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BC2NYL7P3W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OneBitmovinPlayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accedo.poc.playercore.OneBitmovinPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56E40349234DDCC300BE2053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FD56E564840B47A73D55B1 /* Pods-OneBitmovinPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BC2NYL7P3W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OneBitmovinPlayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accedo.poc.playercore.OneBitmovinPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56E4034B234DDCC300BE2053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670F2E49B20D181DF0D4EDBF /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC2NYL7P3W;
+				INFOPLIST_FILE = OneBitmovinPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accedo.poc.playercore.OneBitmovinPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56E4034C234DDCC300BE2053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE88A327376AC13494A668D6 /* Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC2NYL7P3W;
+				INFOPLIST_FILE = OneBitmovinPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.accedo.poc.playercore.OneBitmovinPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56E4032D234DDCC300BE2053 /* Build configuration list for PBXProject "OneBitmovinPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E40345234DDCC300BE2053 /* Debug */,
+				56E40346234DDCC300BE2053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E40347234DDCC300BE2053 /* Build configuration list for PBXNativeTarget "OneBitmovinPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E40348234DDCC300BE2053 /* Debug */,
+				56E40349234DDCC300BE2053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E4034A234DDCC300BE2053 /* Build configuration list for PBXNativeTarget "OneBitmovinPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E4034B234DDCC300BE2053 /* Debug */,
+				56E4034C234DDCC300BE2053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56E4032A234DDCC300BE2053 /* Project object */;
+}

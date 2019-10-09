@@ -1,0 +1,22 @@
+PODS:
+  - BitmovinPlayer (2.32.0)
+
+DEPENDENCIES:
+  - BitmovinPlayer (from `https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git`, tag `2.32.0`)
+
+EXTERNAL SOURCES:
+  BitmovinPlayer:
+    :git: https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git
+    :tag: 2.32.0
+
+CHECKOUT OPTIONS:
+  BitmovinPlayer:
+    :git: https://github.com/bitmovin/bitmovin-player-ios-sdk-cocoapod.git
+    :tag: 2.32.0
+
+SPEC CHECKSUMS:
+  BitmovinPlayer: d4adcd1439c187973dbe7ab4f400a6d852f650ff
+
+PODFILE CHECKSUM: 8a2e33aeee574014a4eb7aaa7b4d2f3d07c04214
+
+COCOAPODS: 1.8.1
