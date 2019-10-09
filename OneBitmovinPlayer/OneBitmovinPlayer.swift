@@ -11,6 +11,9 @@ import BitmovinPlayer
 import UIKit
 public class OneBitmovinPlayer: OnePlayer {
     private var bitmovinPlayer: BitmovinPlayer?
+    
+    public init() {
+    }
     public func playerView() -> UIView? {
         guard let streamUrl = URL(string: "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/playlist.m3u8") else {
             return nil
