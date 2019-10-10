@@ -4,24 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BitmovinPlayer.xcscheme</key>
+		<key>BitmovinPlayer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.xcscheme</key>
+		<key>Pods-OneBitmovinPlayer-OneBitmovinPlayerTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-OneBitmovinPlayer.xcscheme</key>
+		<key>Pods-OneBitmovinPlayer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
