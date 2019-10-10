@@ -11,12 +11,11 @@ import BitmovinPlayer
 import UIKit
 public class OneBitmovinPlayer: OnePlayer {
     private var bitmovinPlayer: BitmovinPlayer?
-    
-    public init() {
-    }
-    public func playerView() -> UIView? {
-        guard let streamUrl = URL(string: "https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/playlist.m3u8") else {
-            return nil
+    private let playbackUrl: String
+    public init(with url: String) {
+        self.playbackUrl = url
+        guard let streamUrl = URL(string: self.playbackUrl) else {
+            return
         }
 
         // Create a source item based on the HLS stream URL
@@ -29,11 +28,14 @@ public class OneBitmovinPlayer: OnePlayer {
         // Add the source item to the configuration
         config.sourceItem = sourceItem
         self.bitmovinPlayer = BitmovinPlayer(configuration: config)
-        let playerView = BMPBitmovinPlayerView(
-            player: self.bitmovinPlayer!,
+    }
+    public func playerView() -> UIView? {
+        guard let player = self.bitmovinPlayer else {
+            return nil
+        }
+        return BMPBitmovinPlayerView(
+            player: player,
             frame: .zero)
-
-        return playerView
     }
     
     public func play(url: String) {
@@ -41,7 +43,7 @@ public class OneBitmovinPlayer: OnePlayer {
     }
     
     public func pause() {
-        
+        self.bitmovinPlayer?.pause()
     }
     
     
